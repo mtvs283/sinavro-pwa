@@ -208,6 +208,44 @@ button {
   padding: 28px 16px 40px;
 }
 
+.company-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0 16px 32px;
+}
+
+.company-footer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: #f5f7f4;
+  text-align: center;
+  text-decoration: none;
+}
+
+.company-footer img {
+  width: clamp(64px, 10vw, 104px);
+  height: clamp(64px, 10vw, 104px);
+  border-radius: 50%;
+  background: #ffffff;
+  object-fit: contain;
+}
+
+.company-footer strong {
+  font-size: clamp(14px, 1.7vw, 19px);
+}
+
+.company-footer span {
+  color: var(--muted);
+  font-size: clamp(12px, 1.3vw, 15px);
+}
+
+.company-footer a:hover span {
+  color: #70c69e;
+}
+
 .board {
   position: relative;
   width: min(1120px, calc(100vw - 32px));
@@ -729,6 +767,10 @@ button {
   .board-wrap {
     align-items: flex-start;
     padding: 10px 8px 18px;
+  }
+
+  .company-footer {
+    padding: 4px 12px 24px;
   }
 
   .board {
