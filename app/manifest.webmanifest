@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "시나브로",
+  "short_name": "시나브로",
+  "description": "한국어 단어 퍼즐게임",
+  "lang": "ko",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#10241c",
+  "theme_color": "#10241c",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
