@@ -11,3 +11,5 @@ data/translations-24.xlsx
 .env*
 
 ~$*.xlsx
+.vercel
+*.tsbuildinfo

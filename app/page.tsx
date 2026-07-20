@@ -49,6 +49,9 @@ export default function Home() {
           <strong>한국어교육AI연구개발원</strong>
           <span>onmaeumkr.com</span>
         </a>
+        <a className="privacy-link" href="/privacy">
+          개인정보처리방침
+        </a>
       </footer>
       <CardPreviewModal
         selectedLanguage={selectedLanguage}
