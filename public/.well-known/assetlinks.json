@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.onmaeum.sinavro",
+      "sha256_cert_fingerprints": [
+        "81:3A:6F:C0:74:34:B0:D0:17:89:6C:70:7D:20:7C:16:9E:FB:49:01:02:34:75:C6:AC:B2:C4:94:7E:E0:A9:B0"
+      ]
+    }
+  }
+]
